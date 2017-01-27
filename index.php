@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
-	<title>Chat</title>
+	<title>Chat de prueba para probar</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
