@@ -1,0 +1,135 @@
+#contactos{
+	width: 200px;
+	border-right: 1px solid #333;
+	background: #ebebeb;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#contactos ul{
+	list-style-type: none;
+	margin: 0;
+	width: 100%;
+}
+
+#contactos ul li{
+	float: left;
+	display: block;
+	width: 100%;
+	margin-bottom: 1px;
+}
+
+#contactos ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 3px;
+	font: 15px "Trebuchet MS", tahoma, arial, helvetica;
+	color: #333;
+}
+
+#contactos ul li a:hover{
+	background: #ccc;
+}
+
+div#ventanas{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 85%;
+}
+
+#ventanas div.ventana{
+	width: 230px;
+	
+	margin-right: 5px;
+	float: right;
+	margin-bottom: 0;
+	height: 250px;
+}
+
+div.ventana div.nombre_usuario{
+	float: left;
+	width: 230px;
+	background:#036;
+	height: 25px;
+	border-bottom: 1px solid #333;
+	cursor: pointer;
+
+}
+
+div.nombre_usuario.fixar{position: absolute; bottom:0;}
+
+div.nombre_usuario span{
+	float: left;
+	font: 14px tahoma, arial, helvetica;
+	color: #fff;
+	margin: 4px;
+}
+
+div.ventana div.nombre_usuario a#cerrar{
+	float: left;
+	padding: 2px 6px;
+	height: 21px;
+	font: 15px tahoma, arial;
+	color: #fff;
+	float: right;
+	text-decoration: none;
+}
+
+div.ventana div.nombre_usuario a#cerrar:hover{background: #000;}
+
+div.ventana input[type=text]{
+	padding: 3px;
+	margin: 0;
+	outline: none;
+	background: #f4f4f4;
+	font: 13px arial, tahoma;
+	color: #333;
+	width: 224px;
+}
+
+div.mensaje{
+	float: left;
+	width: 230px;
+	background: #fff;
+	height: 200px;
+	border-bottom: 1px solid #333;
+}
+
+div.mensaje ul.listar{
+	list-style-type: none;
+	float: left;
+	width: 215px;
+	background: #fff;
+	height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-left: -25px;
+}
+
+div.mensaje ul.listar li{
+	float: left;
+	width: 100%;
+	border-bottom: 1px dotted #333;
+	padding-bottom: 4px;
+}
+
+div.mensaje ul.listar li span{
+	font: 13px tahoma, arial, helvetica;
+	color: #333;
+	float: left;
+	width: 100%;
+	margin: 3px;
+}
+
+div.mensaje ul.listar li p{
+	font: 13px tahoma, arial, helvetica;
+	color: #333;
+	float: left;
+	width: 100%;
+	margin-left: 3px;
+}
