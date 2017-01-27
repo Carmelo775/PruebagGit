@@ -11,11 +11,11 @@
     <form class="form" id="form1" action="Controlador/Ejecutar.php" method="POST">
       
       <p class="user">
-        <input name="usuario" type="text" class="feedback-input" placeholder="Ingresa tu Usuario" id="usuario" autofocus/>
+        <input name="usuario" type="text" class="feedback-input" placeholder="Ingresa tu Usuario o E-mail" id="usuario" autofocus/>
       </p>
       
       <p class="psw">
-        <input name="clave" type="password" class="feedback-input" id="clave" placeholder="Ingresa tu Clave" />
+        <input name="clave" type="password" class="feedback-input" id="clave" placeholder="Ingresa tu Contraseña" />
       </p>
       
       <div class="submit">

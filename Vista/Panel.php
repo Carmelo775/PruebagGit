@@ -39,7 +39,7 @@ if(empty($_SESSION['user'])){
 			<div class="col-md-12">
 				<form class="form-inline" method="POST" action="enviar.php">
 		<div class="form-group ">
-			<a href="../Controlador/cerrarSesion.php" name="cerrar" id="button-cerrar">Cerrar Sesión</a>
+			<a href="../Controlador/cerrarSesion.php" name="cerrar" id="button-cerrar">Logout</a>
 		</div>
 				</form>
 			</div>
